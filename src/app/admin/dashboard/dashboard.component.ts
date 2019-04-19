@@ -27,4 +27,9 @@ export class DashboardComponent implements OnInit {
     })
   }
 
+  toggle(element){
+    console.log(this.full[element],element)
+    this.full[element] = !this.full[element];
+  }
+
 }
